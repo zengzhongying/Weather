@@ -1,16 +1,17 @@
-# React + Vite
+# 运行
+npm run dev
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 默认端口
+http://localhost:5173/
 
-Currently, two official plugins are available:
+# 展示
+请在浏览器上打开手机模式，页面是为手机端设计的哦~
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+# API
+调用的和风天气API，官方文档链接https://dev.qweather.com/docs/configuration/api-config/
 
-## React Compiler
+# 技术栈
+采用react +  vite （直接采用了本地代理的方式调用接口）
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# 作者
+曾中应（1363421830@qq.com）
